@@ -9,6 +9,6 @@ terraform {
 
 resource "local_file" "project6" {
   filename = "${path.module}/project6.txt"
-  content  = "Project 6 - Version Control Infrastructure"
+  content  = "Project 6 - Terraform version control demo-updated"
 }
 
